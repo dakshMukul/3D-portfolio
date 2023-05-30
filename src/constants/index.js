@@ -18,7 +18,8 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
+    CheckWeather,
+    // jobit,
     tripguide
   } from "../assets";
   
@@ -217,8 +218,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: CheckWeather,
+      source_code_link: "https://dakshmukul.github.io/CheckWeather/",
     },
     {
       name: "Trip Guide",
