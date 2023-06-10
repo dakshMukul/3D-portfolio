@@ -33,9 +33,13 @@ import {
       title: "Work",
     },
     {
+      id:"resume",
+      title:"Resume"
+    },
+    {
       id: "contact",
       title: "Contact",
-    },
+    }
   ];
   
   const services = [
@@ -180,20 +184,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movies On Tip",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The project aims to create a website where we maintain the latest films, Upcoming films, Top rated movies along with their details and manage user favorites.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Axios APIs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "React Bootstarp",
           color: "pink-text-gradient",
         },
       ],
