@@ -1,7 +1,32 @@
+import React from "react";
 import { motion } from "framer-motion";
-
+import Typed from "typed.js";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+
+function MyComponent() {
+  // Create reference to store the DOM element containing the animation
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['web applications.', 'user interfaces.'],
+      typeSpeed: 50,
+      loop: true,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
+  return (
+    <> 
+      <span ref={el} />
+    </>
+  );
+}
 
 const Hero = () => {
   return (
@@ -19,8 +44,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Mukul</span>
           </h1>
           <p className={`${styles.heroSubText} mt-0 text-white-100`}>
-            I develop 3D visuals, user
-            interfaces and web applications
+            I develop <span className="ml-0.5"><MyComponent/></span>
           </p>
         </div>
       </div>
