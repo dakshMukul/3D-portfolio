@@ -1,5 +1,5 @@
 import {
-    mobile,
+    // mobile,
     backend,
     creator,
     web,
@@ -17,7 +17,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    moviesOnTip,
+    moviesapp,
     CheckWeather,
     // jobit,
     tripguide
@@ -201,8 +201,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: moviesOnTip,
-      source_code_link: "https://github.com/",
+      image: moviesapp,
+      source_code_link: "https://github.com/dakshMukul/MoviesOnTip",
     },
     {
       name: "Job IT",
