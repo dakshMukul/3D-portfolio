@@ -17,7 +17,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    moviesOnTip,
     CheckWeather,
     // jobit,
     tripguide
@@ -201,7 +201,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: moviesOnTip,
       source_code_link: "https://github.com/",
     },
     {
