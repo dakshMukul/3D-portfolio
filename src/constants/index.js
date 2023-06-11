@@ -19,8 +19,7 @@ import {
     shopify,
     moviesapp,
     CheckWeather,
-    // jobit,
-    tripguide
+    minions,
   } from "../assets";
   
   export const navLinks = [
@@ -226,25 +225,21 @@ import {
       source_code_link: "https://dakshmukul.github.io/CheckWeather/",
     },
     {
-      name: "Trip Guide",
+      name: "Minions Translator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Convert from English to Minion speak. This language is spoken by the minions in Despicable Me. The language is actually lots of languages. Yi kai yai yai bananna! Minion is a registered trademark of Universal Studios.",
       tags: [
         {
-          name: "nextjs",
+          name: "Vanilla js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Fetch API",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: minions,
+      source_code_link: "https://github.com/dakshMukul/talk_banana",
     },
   ];
   

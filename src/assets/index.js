@@ -30,7 +30,7 @@ import tesla from "./company/tesla.png";
 import moviesapp from "./moviesapp.png";
 import CheckWeather from './checkWeather.jpeg';
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import minions from "./minions.png";
 
 export {
   mlogo,
@@ -61,5 +61,5 @@ export {
   moviesapp,
   CheckWeather,
   jobit,
-  tripguide,
+  minions,
 };
