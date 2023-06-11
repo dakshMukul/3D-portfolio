@@ -205,20 +205,20 @@ import {
       source_code_link: "https://github.com/dakshMukul/MoviesOnTip",
     },
     {
-      name: "Job IT",
+      name: "Weather App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This weather app will show the weather information for a specific city. User should be able to get the weather information for any valid cities",
       tags: [
         {
-          name: "react",
+          name: "Vanilla js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Fetch API",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "DOM Manipulation",
           color: "pink-text-gradient",
         },
       ],
